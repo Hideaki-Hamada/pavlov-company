@@ -1,5 +1,57 @@
 body {
 <<<<<<< HEAD
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f2f2f2; /* Add a background color for the body */
+}
+
+#password {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; /* Add a border to the password field */
+  border-radius: 5px; /* Add rounded corners to the password field */
+  background-color: #fff; /* Add a background color to the password field */
+  color: #333; /* Change the text color of the password field */
+}
+
+/* Add some styles to make the form more visually appealing */
+form {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+=======
+<<<<<<< HEAD
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -26,3 +78,4 @@ body {
 .valid {
     color: green;
 }
+>>>>>>> main
