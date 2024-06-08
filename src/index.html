@@ -1,1 +1,27 @@
-<!DOCTYPEhtml><htmllang="en"><head><metacharset="UTF-8"><metaname="viewport"content="width=device-width, initial-scale=1.0"><title>Security Tool</title><linkrel="stylesheet"href="css/styles.css"></head><body><h1>Password Strength Checker</h1><inputtype="password"id="password"placeholder="Enter your password"><buttonid="check">Check Password</button><pid="feedback"></p><scriptsrc="js/main.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación de Contraseña</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Crear Cuenta</h2>
+        <form id="signupForm">
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            <div id="message">
+                <p id="length" class="invalid">Debe tener al menos 8 caracteres</p>
+                <p id="uppercase" class="invalid">Debe tener al menos una letra mayúscula</p>
+                <p id="lowercase" class="invalid">Debe tener al menos una letra minúscula</p>
+                <p id="number" class="invalid">Debe tener al menos un número</p>
+                <p id="special" class="invalid">Debe tener al menos un carácter especial</p>
+            </div>
+            <button type="submit">Registrarse</button>
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
