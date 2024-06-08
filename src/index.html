@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -46,5 +47,31 @@ nav {
 <button id="check">Check Password</button>
 <p id="feedback"></p>
 <script src="js/main.js"></script>
+=======
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación de Contraseña</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Crear Cuenta</h2>
+        <form id="signupForm">
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            <div id="message">
+                <p id="length" class="invalid">Debe tener al menos 8 caracteres</p>
+                <p id="uppercase" class="invalid">Debe tener al menos una letra mayúscula</p>
+                <p id="lowercase" class="invalid">Debe tener al menos una letra minúscula</p>
+                <p id="number" class="invalid">Debe tener al menos un número</p>
+                <p id="special" class="invalid">Debe tener al menos un carácter especial</p>
+            </div>
+            <button type="submit">Registrarse</button>
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+>>>>>>> main
 </body>
 </html>
